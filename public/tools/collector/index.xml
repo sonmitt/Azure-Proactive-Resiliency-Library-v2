@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collector Script on Azure Proactive Resiliency Library v2</title>
+    <link>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/</link>
+    <description>Recent content in Collector Script on Azure Proactive Resiliency Library v2</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/runbooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/runbooks/</guid>
+      <description>&lt;div class=&#34;gdoc-page__anchorwrap&#34;&gt;&#xD;&#xA;    &lt;h1 id=&#34;overview&#34;&#xD;&#xA;    &gt;&#xD;&#xA;        Overview&#xD;&#xA;        &lt;a data-clipboard-text=&#34;http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/runbooks/#overview&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Overview&#34; aria-label=&#34;Anchor to: Overview&#34; href=&#34;#overview&#34;&gt;&#xD;&#xA;            &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;    &lt;/h1&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Runbooks are JSON files that allow extensive customization of KQL queries executed by WARA tooling and the resources these queries target. They also support the integration of custom KQL queries. Read on to learn more about using runbooks with WARA tooling.&lt;/p&gt;&#xA;&lt;div class=&#34;gdoc-page__anchorwrap&#34;&gt;&#xD;&#xA;    &lt;h2 id=&#34;selectors&#34;&#xD;&#xA;    &gt;&#xD;&#xA;        Selectors&#xD;&#xA;        &lt;a data-clipboard-text=&#34;http://localhost:1313/Azure-Proactive-Resiliency-Library-v2/tools/collector/runbooks/#selectors&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Selectors&#34; aria-label=&#34;Anchor to: Selectors&#34; href=&#34;#selectors&#34;&gt;&#xD;&#xA;            &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;    &lt;/h2&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Runbooks use selectors to identify groups of Azure resources for specific checks. &lt;a&#xD;&#xA;  class=&#34;gdoc-markdown__link&#34;&#xD;&#xA;  href=&#34;https://learn.microsoft.com/azure/data-explorer/kusto/query/where-operator&#34;&#xD;&#xA;&gt;Selectors can be any valid KQL &lt;code&gt;where&lt;/code&gt; condition.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
