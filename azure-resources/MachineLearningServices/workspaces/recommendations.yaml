@@ -6,7 +6,7 @@
   recommendationResourceType: Microsoft.MachineLearningServices/workspaces
   recommendationMetadataState: Active
   longDescription: |
-   A multi-regional deployment relies on creation of Azure Machine Learning and other resources (infrastructure) in two Azure regions. Ensure you have a recovery strategy defined. Machine Learning workspace doesn't have automatic failover. Therefore, it is important to design a strategy that encompasses the workspace and all its associated resources, such as Key Vault, Azure Storage, Application insights and Azure Container Registry. If a regional outage occurs, you can switch to the other region. When planning on where to deploy your resources check regional availability and paired region for Azure Machine learning.
+   A multi-regional deployment requires creating Azure Machine Learning and other resources in two Azure regions. Ensure you have a recovery strategy. The Machine Learning workspace lacks automatic failover, so design a strategy for all associated resources. Check regional availability and paired regions.
   potentialBenefits: Provides disaster recovery strategy and business continuity
   pgVerified: false
   automationAvailable: false
@@ -23,7 +23,7 @@
   recommendationResourceType: Microsoft.MachineLearningServices/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    When your primary workspace becomes unavailable, you can switch over the secondary workspace to continue experimentation and development. Azure Machine Learning doesn't automatically submit jobs to the secondary workspace if there's an outage. Update your code configuration to point to the new workspace resource.
+    If your primary workspace is unavailable, switch to the secondary workspace to continue work. Azure Machine Learning doesn't auto-submit jobs to the secondary workspace during an outage. Update your code configuration to point to the new workspace resource.
   potentialBenefits: Provides disaster recovery from regional outages
   pgVerified: false
   automationAvailable: false
@@ -40,7 +40,7 @@
   recommendationResourceType: Microsoft.MachineLearningServices/workspaces
   recommendationMetadataState: Active
   longDescription: |
-    Create the compute resources required to train a Machine Learning model in the selected regions. For compute resources that can dynamically scale, make sure that both regions provide sufficient compute quota for your needs. It is customer responsibility to configure High availability across zones for compute resources that are attached by customer such as AKS, Azure Databricks, Container Instances, HDInsight.
+    Create compute resources for training a Machine Learning model in selected regions. Ensure both regions have sufficient compute quota for dynamically scaling resources. Customers must configure high availability across zones for attached compute resources like AKS, Azure Databricks, Container Instances, and HDInsight.
   potentialBenefits: High availability and disaster recovery
   pgVerified: false
   automationAvailable: false
