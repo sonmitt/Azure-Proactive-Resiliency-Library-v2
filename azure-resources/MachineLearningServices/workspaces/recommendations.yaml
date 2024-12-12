@@ -6,13 +6,13 @@
   recommendationResourceType: Microsoft.MachineLearningServices/workspaces
   recommendationMetadataState: Active
   longDescription: |
-   A multi-regional deployment requires creating Azure Machine Learning and other resources in two Azure regions. Ensure you have a recovery strategy. The Machine Learning workspace lacks automatic failover, so design a strategy for all associated resources. Check regional availability and paired regions.
-  potentialBenefits: Provides disaster recovery strategy and business continuity
+   Ensure you have a multi-region recovery strategy defined. Machine Learning doesn't have automatic failover. Therefore, you must design a strategy that encompasses the workspace and all its dependencies, such as Key Vault, Azure Storage, and Azure Container Registry.
+  potentialBenefits: Provides multi-region strategy and enhanced reliability
   pgVerified: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Plan for multi-regional deployment
       url: "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
 
 - description: Deploy Azure Machine learning workspace in secondary region
@@ -24,12 +24,12 @@
   recommendationMetadataState: Active
   longDescription: |
     If your primary workspace is unavailable, switch to the secondary workspace to continue work. Azure Machine Learning doesn't auto-submit jobs to the secondary workspace during an outage. Update your code configuration to point to the new workspace resource.
-  potentialBenefits: Provides disaster recovery from regional outages
+  potentialBenefits: Provides recovery from regional outages
   pgVerified: false
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Failover for business continuity and disaster recovery
       url: "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
 
 - description: Ensure to create Azure Machine Learning Compute resources in secondary region
@@ -46,7 +46,7 @@
   automationAvailable: false
   tags: null
   learnMoreLink:
-    - name: Learn More
+    - name: Failover for business continuity and disaster recovery
       url: "https://learn.microsoft.com/en-us/azure/machine-learning/how-to-high-availability-machine-learning?view=azureml-api-2"
     - name: Compute targets in Azure Machine Learning
       url: "https://learn.microsoft.com/en-us/azure/machine-learning/concept-compute-target?view=azureml-api-2"
